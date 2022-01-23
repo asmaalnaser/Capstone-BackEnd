@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-
+@CrossOrigin(origins = "https://glamourasma.herokuapp.com/")
 @RestController
 @RequestMapping
 public class BookingController {
